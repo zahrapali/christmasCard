@@ -170,7 +170,8 @@ html {
 }
 
 body {
-  background-image: url(./assets/redbackgroundsnow.png);
+  /* background-image: url(./assets/redbackgroundsnow.png); */
+  background-image: url(./assets/background-web.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,6 +189,7 @@ p {
 }
 .logo {
   margin-top: 30px;
+  margin-bottom: 30px;
   padding-left: 22px;
 }
 
@@ -261,6 +263,8 @@ a {
   .wrapper {
     width: 100vw;
     padding-left: 20px;
+    padding-right: 20px;
+
     padding-top: 50px;
   }
   .headerImage {
