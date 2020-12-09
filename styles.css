@@ -182,11 +182,9 @@ p {
   padding-left: 22px;
 }
 .santa {
-  /* position: absolute;
-  top: 80px;
-  right: 0; */
   float: right;
   z-index: -20;
+  contain: style;
 }
 .logo {
   margin-top: 10px;
