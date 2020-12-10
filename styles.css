@@ -170,23 +170,29 @@ html {
 }
 
 body {
-  /* background-image: url(./assets/redbackgroundsnow.png); */
-  background-image: url(./assets/background-web.png);
+  background-image: url(./assets/redbackgroundsnow.png);
+    background-size: cover;
+
+  /* background-image: url(./assets/background-web.png); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: inherit;
   height: 100vh;
   position: relative;
+}
+.santa {
+ /* background-image: url(./assets/Santa\ and\ objects_LP[1].png); */
+ position: absolute;
+ background-position: bottom right;
+ /* bottom: 0;
+ top: 100; */
+ 
 }
 p {
   font-size: 18px;
   padding-left: 22px;
 }
-.santa {
-  float: right;
-  z-index: -20;
-  contain: style;
-}
+
 .logo {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -241,6 +247,11 @@ a {
 
   body {
     background-image: url(./assets/background-mobile.png);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* position: relative; */
   }
 
   button {
