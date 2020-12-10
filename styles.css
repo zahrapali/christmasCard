@@ -204,7 +204,7 @@ p {
   top: 80px;
   right: 0;
 }
-button {
+.playNow {
   /* background: white; */
   background: linear-gradient(
     0deg,
@@ -254,7 +254,7 @@ a {
   /* position: relative; */
   }
 
-  button {
+  .playNow {
     /* background: white; */
     background: linear-gradient(
       0deg,
